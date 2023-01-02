@@ -5,7 +5,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/Inbox";
-import DraftsIcon from "@mui/icons-material/Drafts";
+import TimerIcon from "@mui/icons-material/Timer";
 const Duration = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Duration = () => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <InboxIcon />
+              <TimerIcon />
             </ListItemIcon>
             <ListItemText primary="One on One support every saturday (for 1 Month) " />
           </ListItemButton>
@@ -24,7 +24,7 @@ const Duration = () => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <DraftsIcon />
+              <TimerIcon />
             </ListItemIcon>
             <ListItemText primary="2 Live classes (1.5 hours each)" />
           </ListItemButton>

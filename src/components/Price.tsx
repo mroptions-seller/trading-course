@@ -4,8 +4,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/Inbox";
-import DraftsIcon from "@mui/icons-material/Drafts";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 const Price = () => {
   return (
     <>
@@ -16,7 +15,7 @@ const Price = () => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <InboxIcon />
+              <ArrowForwardIcon />
             </ListItemIcon>
             <ListItemText primary="One time fee: ₹ 2,999 /-" />
           </ListItemButton>
@@ -24,7 +23,7 @@ const Price = () => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <DraftsIcon />
+              <ArrowForwardIcon />
             </ListItemIcon>
             <ListItemText primary="11:00 AM or 05:00 PM (You have to book one)" />
           </ListItemButton>

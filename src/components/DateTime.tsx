@@ -4,8 +4,8 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/Inbox";
-import DraftsIcon from "@mui/icons-material/Drafts";
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 const DateTime = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const DateTime = () => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <InboxIcon />
+              <CalendarTodayIcon />
             </ListItemIcon>
             <ListItemText primary="7th Jan and 8th Jan" />
           </ListItemButton>
@@ -24,7 +24,7 @@ const DateTime = () => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <DraftsIcon />
+              <AccessTimeIcon />
             </ListItemIcon>
             <ListItemText primary="11:00 AM or 05:00 PM" />
           </ListItemButton>
