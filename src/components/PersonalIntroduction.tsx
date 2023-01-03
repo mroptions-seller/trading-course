@@ -1,8 +1,9 @@
+import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 const PersonalIntroduction = () => {
   return (
-    <>
-      <Typography variant="h4" gutterBottom>
+    <Grid item xs={12}>
+      <Typography variant="h5" component="h2" gutterBottom>
       Here is a little information about me
       </Typography>
       <Typography variant="body1" gutterBottom>
@@ -36,7 +37,7 @@ const PersonalIntroduction = () => {
       <Typography variant="body1" gutterBottom>
         Enjoy trading!
       </Typography>
-    </>
+    </Grid>
   );
 };
 

@@ -1,4 +1,5 @@
-import Container from "@mui/material/Container";
+import { Grid } from "@mui/material";
+import ButtonAppBar from "../components/Appbar";
 import CourseIntro from "../components/CourseIntro";
 import DateTime from "../components/DateTime";
 import Disclaimer from "../components/Disclaimer";
@@ -9,7 +10,15 @@ import Price from "../components/Price";
 import ProgramTitle from "../components/ProgramTitle";
 const MentorshipProgram = () => {
   return (
-    <Container maxWidth="lg">
+    <Grid
+    padding="16px"
+      direction="row"
+      justifyContent="center"
+      alignItems="center"
+      container
+      spacing={2}
+    >
+      <ButtonAppBar />
       <ProgramTitle />
       <CourseIntro />
       <DateTime />
@@ -18,7 +27,7 @@ const MentorshipProgram = () => {
       <PaymentPolicy />
       <Disclaimer />
       <PersonalIntroduction />
-    </Container>
+    </Grid>
   );
 };
 

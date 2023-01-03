@@ -5,10 +5,11 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { Grid } from "@mui/material";
 const Price = () => {
   return (
-    <>
-      <Typography variant="h4" gutterBottom>
+    <Grid item xs={12}>
+      <Typography variant="h5" component="h2" gutterBottom>
         Price
       </Typography>
       <List>
@@ -29,7 +30,7 @@ const Price = () => {
           </ListItemButton>
         </ListItem>
       </List>
-    </>
+    </Grid>
   );
 };
 

@@ -1,8 +1,9 @@
+import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 const Disclaimer = () => {
   return (
-    <>
-      <Typography variant="h4" gutterBottom>
+    <Grid item xs={12}>
+      <Typography variant="h5" component="h2" gutterBottom>
         Disclaimer
       </Typography>
       <Typography variant="body1" gutterBottom>
@@ -25,7 +26,7 @@ const Disclaimer = () => {
         time, so please check back regularly to keep up to date on our
         practices.
       </Typography>
-    </>
+    </Grid>
   );
 };
 

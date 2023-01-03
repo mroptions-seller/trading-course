@@ -4,12 +4,12 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/Inbox";
 import TimerIcon from "@mui/icons-material/Timer";
+import { Grid } from "@mui/material";
 const Duration = () => {
   return (
-    <>
-      <Typography variant="h4" gutterBottom>
+    <Grid item xs={12}>
+      <Typography variant="h5" component="h2" gutterBottom>
         Duration
       </Typography>
       <List>
@@ -30,7 +30,7 @@ const Duration = () => {
           </ListItemButton>
         </ListItem>
       </List>
-    </>
+    </Grid>
   );
 };
 

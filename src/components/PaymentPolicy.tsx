@@ -1,8 +1,9 @@
+import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 const PaymentPolicy = () => {
   return (
-    <>
-      <Typography variant="h4" gutterBottom>
+    <Grid item xs={12}>
+      <Typography variant="h5" component="h2" gutterBottom>
         Payment Policy
       </Typography>
       <Typography variant="body1" gutterBottom>
@@ -19,7 +20,7 @@ const PaymentPolicy = () => {
       <Typography variant="body1" gutterBottom>
         UPI ID – mr.optionseller@upi
       </Typography>
-    </>
+    </Grid>
   );
 };
 

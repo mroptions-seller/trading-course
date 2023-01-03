@@ -6,10 +6,11 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import { Grid } from "@mui/material";
 const DateTime = () => {
   return (
-    <>
-      <Typography variant="h4" gutterBottom>
+    <Grid item xs={12}>
+      <Typography variant="h5" component="h2" gutterBottom>
         Date & Time
       </Typography>
       <List>
@@ -30,7 +31,7 @@ const DateTime = () => {
           </ListItemButton>
         </ListItem>
       </List>
-    </>
+    </Grid>
   );
 };
 

@@ -1,8 +1,8 @@
-import Container from "@mui/material/Container";
+import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 const CourseIntro = () => {
   return (
-    <>
+    <Grid item xs={12}>
       <Typography variant="body1" gutterBottom>
         The Only Course You Will Ever Need To Make Consistent Income From The
         Stock Market
@@ -12,7 +12,7 @@ const CourseIntro = () => {
         if you’ve never traded a stock before or even if you’ve never had a
         Demat account.
       </Typography>
-    </>
+    </Grid>
   );
 };
 
