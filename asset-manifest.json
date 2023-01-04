@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/trading-course/static/css/main.759f89d2.css",
-    "main.js": "/trading-course/static/js/main.fc0c0203.js",
+    "main.css": "/trading-course/static/css/main.094ba6f4.css",
+    "main.js": "/trading-course/static/js/main.febebd16.js",
     "static/js/787.41991e4b.chunk.js": "/trading-course/static/js/787.41991e4b.chunk.js",
+    "static/media/logo.png": "/trading-course/static/media/logo.ce507ba312085fe0cb8c.png",
     "static/media/roboto-all-500-normal.woff": "/trading-course/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/trading-course/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/trading-course/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -36,12 +37,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/trading-course/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/trading-course/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/trading-course/index.html",
-    "main.759f89d2.css.map": "/trading-course/static/css/main.759f89d2.css.map",
-    "main.fc0c0203.js.map": "/trading-course/static/js/main.fc0c0203.js.map",
+    "main.094ba6f4.css.map": "/trading-course/static/css/main.094ba6f4.css.map",
+    "main.febebd16.js.map": "/trading-course/static/js/main.febebd16.js.map",
     "787.41991e4b.chunk.js.map": "/trading-course/static/js/787.41991e4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.759f89d2.css",
-    "static/js/main.fc0c0203.js"
+    "static/css/main.094ba6f4.css",
+    "static/js/main.febebd16.js"
   ]
 }
