@@ -4,12 +4,12 @@ const PersonalIntroduction = () => {
   return (
     <Grid item xs={12}>
       <Typography variant="h5" component="h2" gutterBottom>
-      Here is a little information about me
+        Here is a little information about me
       </Typography>
       <Typography variant="body1" gutterBottom>
-        I am a 28-year-old entrepreneur, Professional Stock Market Trader and a
-        YouTuber with a Stock market niche channel. I am here to share my best
-        years of experience in the Stock Market.
+        Hello, My name is Major Singh. I am a 28-year-old entrepreneur,
+        Professional Stock Market Trader and a YouTuber. I am here to share my
+        best years of experience in the Stock Market.
       </Typography>
       <Typography variant="body1" gutterBottom>
         I started trading for the first time when I was 25 years old, but due to

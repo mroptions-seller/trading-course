@@ -8,9 +8,11 @@ import PaymentPolicy from "../components/PaymentPolicy";
 import PersonalIntroduction from "../components/PersonalIntroduction";
 import Price from "../components/Price";
 import ProgramTitle from "../components/ProgramTitle";
+import SocialLinksHeader from "../components/SocialLinksHeader";
 const MentorshipProgram = () => {
   return (
     <>
+      <SocialLinksHeader />
       <ResponsiveAppBar />
 
       <Grid

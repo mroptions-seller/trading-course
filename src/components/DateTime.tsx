@@ -19,7 +19,7 @@ const DateTime = () => {
             <ListItemIcon>
               <CalendarTodayIcon />
             </ListItemIcon>
-            <ListItemText primary="7th Jan and 8th Jan" />
+            <ListItemText primary="14th Jan and 15th Jan" />
           </ListItemButton>
         </ListItem>
         <ListItem disablePadding>

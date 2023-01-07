@@ -7,8 +7,8 @@ const PaymentPolicy = () => {
         Payment Policy
       </Typography>
       <Typography variant="body1" gutterBottom>
-        We must receive payment of the whole price for the Course you wish to
-        receive, After that you will get the Access to the Course.
+        We must receive payment for the whole Course you wish to receive, and
+        after that, you will get Access to the Course.
       </Typography>
       <Typography variant="body1" gutterBottom>
         How to Pay?
