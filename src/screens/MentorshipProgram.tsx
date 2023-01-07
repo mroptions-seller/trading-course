@@ -23,7 +23,6 @@ const MentorshipProgram = () => {
         alignItems="center"
         container
         spacing={2}
-        sx={{px:12}}
       >
         <ProgramTitle />
         <CourseIntro />
