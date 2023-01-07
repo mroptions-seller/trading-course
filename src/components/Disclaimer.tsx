@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 const Disclaimer = () => {
   return (
-    <Grid item xs={12}>
+    <Grid item xs={12} className="disclaimer">
       <Typography variant="h5" component="h2" gutterBottom>
         Disclaimer
       </Typography>

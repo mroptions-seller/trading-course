@@ -8,7 +8,7 @@ const SocialLinksHeader = () => {
     <Grid
       padding="16px"
       direction="row"
-      justifyContent="right"
+      justifyContent="center"
       alignItems="center"
       container
       spacing={2}

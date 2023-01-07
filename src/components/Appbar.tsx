@@ -62,18 +62,18 @@ function ResponsiveAppBar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {/* {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
-              ))}
+              ))} */}
             </Menu>
           </Box>
           <div className="logo-mobile-container">
             <img src={logo} className="logo-mobile" alt="Logo" />
           </div>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -83,7 +83,7 @@ function ResponsiveAppBar() {
                 {page}
               </Button>
             ))}
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

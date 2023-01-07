@@ -8,6 +8,7 @@ import PaymentPolicy from "../components/PaymentPolicy";
 import PersonalIntroduction from "../components/PersonalIntroduction";
 import Price from "../components/Price";
 import ProgramTitle from "../components/ProgramTitle";
+import RefundPolicy from "../components/RefundPolicy";
 import SocialLinksHeader from "../components/SocialLinksHeader";
 const MentorshipProgram = () => {
   return (
@@ -16,12 +17,13 @@ const MentorshipProgram = () => {
       <ResponsiveAppBar />
 
       <Grid
-        padding="16px"
+        padding="24px"
         direction="row"
         justifyContent="center"
         alignItems="center"
         container
         spacing={2}
+        sx={{px:12}}
       >
         <ProgramTitle />
         <CourseIntro />
@@ -29,8 +31,9 @@ const MentorshipProgram = () => {
         <Duration />
         <Price />
         <PaymentPolicy />
-        <Disclaimer />
         <PersonalIntroduction />
+        <RefundPolicy/>
+        <Disclaimer />
       </Grid>
     </>
   );
